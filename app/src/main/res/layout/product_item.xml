@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="@dimen/_130sdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:animateLayoutChanges="true">
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:background="@drawable/rounded_gray"
+        android:scaleType="centerInside"
+        android:src="@drawable/no_image" />
+
+    <LinearLayout
+        android:id="@+id/price_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_image"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/price_txt"
+            style="@style/Text_Poppins_Dark_600_Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="$3123.69"
+            android:textColor="@color/colorTextDiscounted"
+            android:textSize="@dimen/_13sdp"
+            app:autoSizeMaxTextSize="@dimen/_13sdp"
+            app:autoSizeMinTextSize="@dimen/_10sdp"
+            app:autoSizeStepGranularity="@dimen/_1sdp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/tax_txt"
+            style="@style/Text_Poppins_Dark_400_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="$1245.78"
+            android:textColor="@color/colorTextLight"
+            android:textSize="@dimen/_11sdp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/product_name_desc_text"
+        style="@style/Text_Poppins_Dark_500_Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_area"
+        android:maxLines="2"
+        android:minLines="2"
+        android:text="Amul Products \u2022 Eatery"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/_14sdp" />
+
+</RelativeLayout>

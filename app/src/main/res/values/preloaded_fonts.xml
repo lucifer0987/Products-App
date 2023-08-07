@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/poppins_400</item>
+        <item>@font/poppins_700</item>
+        <item>@font/poppins_500</item>
+        <item>@font/poppins_600</item>
+    </array>
+</resources>

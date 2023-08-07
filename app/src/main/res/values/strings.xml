@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Products_App</string>
+    <string name="base_url">https://app.getswipe.in/api/public/</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="default_error">Something went wrong! Please contact support or try again later.</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="network_error">Network error, please try again!</string>
+    <string name="required_field">This field is required</string>
+    <string name="not_zero">Please enter a value greater than 0</string>
+    <string name="ok">OK</string>
+    <string name="add_product">Add Product</string>
+    <string name="show_product">Show Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="this_field_is_required">This field is required</string>
+    <string name="product_tax">Product Tax</string>
+    <string name="product_price">Product Price</string>
+    <string name="success">Success</string>
+    <string name="product_add_success">Your product has been successfully added.</string>
+    <string name="product_add_failure">Your product was not added. Please try again.</string>
+</resources>
